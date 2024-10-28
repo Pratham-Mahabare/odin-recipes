@@ -1,0 +1,37 @@
+* {
+    background-color: black;
+    font-family: Arial, verdana, Helvetica, "Times New Roman", sans-serif, serif;
+}
+
+.title {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: goldenrod;
+        text-align: center;
+        background-color: wheat;
+        border-style: groove;
+        border-color:goldenrod;
+}
+
+.recipes-names {
+                font-weight: bold;
+                font-size: 20px;
+                font-style: italic;
+                text-align: center;
+                color: brown;
+                background-color: brown;
+                border-style: groove;
+                border-color: goldenrod;
+                
+}
+
+.list {
+        background-color: brown;
+
+}
+
+.shahiPaneer,.shoyaRamen,.burger {
+                color: wheat;
+                background-color: brown;
+                
+}
