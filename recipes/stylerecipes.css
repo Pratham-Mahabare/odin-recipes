@@ -1,0 +1,72 @@
+* {
+    background-color: rgb(235, 230, 160);
+    font-family: Arial, verdana, Helvetica, "Times New Roman", sans-serif, serif;
+}
+
+.recipeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-color:goldenrod;
+    border-radius: 1cm;
+    border-width: 0.3cm;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: chocolate;
+    border-style: outset;
+    border-radius: 1cm;
+    border-color: burlywood;
+}
+
+.description,.ingredients,.steps {
+    text-align: center;
+    color: black;
+    background-color: coral;
+    border-style: solid;
+    border-color: crimson;
+    border-radius: 1cm;
+}
+
+.para {
+    text-align: center;
+    color: rgb(156, 30, 58);
+    font-weight: bold;
+    background-color: rgb(232, 236, 220);
+    border-style: ridge;
+    border-color: grey;
+}
+
+.ulists,.olists {
+    color: black;
+    background-color: rgb(232, 236, 220);
+    border-style: ridge;
+    border-color: grey;
+}
+
+.names {
+    color: rgb(156, 30, 58);
+    font-weight: bold;
+    background-color: rgb(232, 236, 220);
+}
+
+#h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.back {
+    color: black;
+    font-weight: bold;
+    border: 0.1cm;
+    border-style: groove;
+    border-radius: 1cm;
+    border-color: brown;
+    background-color: rgb(232, 236, 220);
+}
