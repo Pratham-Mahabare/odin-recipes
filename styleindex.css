@@ -1,37 +1,75 @@
+*,
+*::before,
+*::after {
+        box-sizing: border-box;
+}
+
 * {
-    background-color: black;
+    background-color: rgb(201, 188, 188);
     font-family: Arial, verdana, Helvetica, "Times New Roman", sans-serif, serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .title {
+        margin: 10px 10px;
+        padding: 5px;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
         color: goldenrod;
         text-align: center;
         background-color: wheat;
-        border-style: groove;
-        border-color:goldenrod;
+        border:3px groove goldenrod;
 }
 
-.recipes-names {
-                font-weight: bold;
-                font-size: 20px;
-                font-style: italic;
-                text-align: center;
-                color: brown;
-                background-color: brown;
-                border-style: groove;
-                border-color: goldenrod;
-                
+.container {
+        width:fit-content;
+        height: fit-content;
+        margin: 10px 10px;
+        padding: 20px;
+        border: 3px groove goldenrod;
+        text-align: center;
+        background-color: wheat;
 }
 
 .list {
-        background-color: brown;
-
+        margin: 10px;
+        padding:50px 50px;
+        display: block;
+        border: 2px ridge brown;
+        border-radius: 20px;
+        background-color: chocolate;
 }
 
-.shahiPaneer,.shoyaRamen,.burger {
-                color: wheat;
-                background-color: brown;
-                
+#recipe1,#recipe2,#recipe3 {  
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+        padding: 10px 20px;  
+        border: 2px solid brown;
+        border-radius: 20px;
+        background-color: rgb(241, 188, 118);
 }
+
+.list1,.list2,.list3 {
+        margin: 0px;
+        padding: 13px;
+        display: block;
+        background-color: rgb(241, 188, 118);
+        
+}
+
+#List {
+        font-size: 11px;
+        font-weight: bolder;
+        border: 2px groove goldenrod;
+        border-radius: 30px;
+        width: 100px;
+        height: 50px;
+        display: inline-block;
+        padding: 15px 10px;
+        background-color: yellow;
+}
+
+
+
